@@ -1,0 +1,16 @@
+[package]
+name = "on-chain-billing"
+version = "1.0.0"
+authors = []
+
+[addresses]
+phani_addr = "0x75e5474199e312473cb3bedc8fcb23fe04c7f4f32fb4dd2309dcbc9457006330"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
