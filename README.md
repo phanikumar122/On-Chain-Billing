@@ -40,3 +40,4 @@ and groups bills.
 • Blockchain applied beyond payments enables transparent, permanent, and user-friendly billing.
 
 • Sellers and buyers benefit from secure, auditable records and financial insights.
+
