@@ -1,0 +1,20 @@
+[package]
+name = "on_chain_billing"
+version = "1.0.0"
+authors = []
+license = "MIT"
+
+[addresses]
+billing = "_"
+aptos_framework = "0x1"
+std = "0x1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-addresses]
+billing = "0xCAFE"
+
+[dev-dependencies]

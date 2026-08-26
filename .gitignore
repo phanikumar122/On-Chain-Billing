@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.*
+
+# Next.js & Build outputs
+.next/
+frontend/.next/
+out/
+build/
+on_chain_billing/build/
+*.tsbuildinfo
+
+# Aptos / Move build outputs and configs
+on_chain_billing/.aptos/config.yaml
+.aptos/config.yaml
+
+# Environment files & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Debug and Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor files
+.DS_Store
+*.pem
+.vscode/
+.idea/
